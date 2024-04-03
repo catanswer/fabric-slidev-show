@@ -1,0 +1,25 @@
+{
+  "name": "fabric-show",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@rollup/rollup-win32-x64-msvc": "^4.13.0",
+    "@slidev/cli": "^0.48.7",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "element-plus": "^2.6.2",
+    "fabric": "^5.3.0",
+    "slidev-theme-penguin": "^2.2.0",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-element-plus": "^0.8.0",
+    "unplugin-vue-components": "^0.26.0"
+  }
+}
