@@ -579,7 +579,7 @@ hide: false
 ---
 <!-- 裁剪一个组合 -->
 ---
-src: ./pages/trim/group.md
+src: ./pages/trim/groups.md
 hide: false
 ---
 

@@ -1,5 +1,5 @@
 # 裁剪
-#### 组合裁剪
+#### 裁剪组合
 
 <div grid="~ cols-2 gap-4" m="t-2">
 
@@ -32,5 +32,5 @@
 	canvas.add(group)
 ```
 </div>
-<Group />
+<TrimGroup />
 </div>
