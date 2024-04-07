@@ -4,7 +4,7 @@
 
 <div grid="~ cols-2 gap-4" m="t-2">
 
-```javascript {2 5-15}
+```javascript {2|5-15}
   const canvas = new fabric.Canvas('canvas', {
     isDrawingMode: true, // 开启绘图模式
   })
