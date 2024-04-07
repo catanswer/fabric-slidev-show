@@ -49,12 +49,12 @@ transition: fade-out
 # 关于Fabric
 
 Fabric是一个功能强大且操作简单的Canvas工具库<br>
-Canvas提供了一个好的画布能力，但是Api不够友好，绘制简单的图形还可以，但是一些复杂的图形绘制和效果，就不是那么方便<br>
-Fabric它主要使用对象方式编写代码，提供Canvas所缺少的对象模型、交互和其他不可或缺的工具
+Canvas提供了一个好的画布能力，但是Api不够友好<br>
+Fabric主要使用对象方式编写代码，提供Canvas所缺少的对象模型、交互和其他不可或缺的工具
 
 - 📝 **Text-based** - focus on the content with Markdown, and then style them later
 - 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
+- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletio n
 - 🤹 **Interactive** - embedding Vue components to enhance your expressions
 - 🎥 **Recording** - built-in recording and camera view
 - 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
@@ -575,6 +575,11 @@ hide: false
 <!-- 单一图形裁剪 -->
 ---
 src: ./pages/trim/single.md
+hide: false
+---
+<!-- 裁剪一个组合 -->
+---
+src: ./pages/trim/group.md
 hide: false
 ---
 

@@ -1,4 +1,5 @@
-# 裁剪 - 单一图形裁剪
+# 裁剪
+#### 单一图形裁剪
 
 <div grid="~ cols-2 gap-4" m="t-2">
 
@@ -21,8 +22,8 @@
 
 	// 裁剪矩形
 	rect.clipPath = clipPath
-	nextTick(() => {
 		canvas.add(rect)
+	nextTick(() => {
 	})
 ```
 
