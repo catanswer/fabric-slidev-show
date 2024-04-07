@@ -582,6 +582,11 @@ hide: false
 src: ./pages/trim/groups.md
 hide: false
 ---
+<!-- 使用文字来裁剪 -->
+---
+src: ./pages/trim/text.md
+hide: false
+---
 
 ---
 

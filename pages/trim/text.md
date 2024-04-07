@@ -1,5 +1,5 @@
 # 裁剪
-#### 裁剪组合
+#### 文字裁剪
 
 <div grid="~ cols-2 gap-4" m="t-2">
 
@@ -8,11 +8,7 @@
 ```javascript
 	const canvas = new fabric.Canvas('single')
 
-	const clipPath = new fabric.Circle({
-		radius: 40,
-		left: -40,
-		top: -40
-	})
+	const clipPath = new fabric.Text('春眠不觉晓\n处处闻啼鸟\n夜来风雨声\n花落知多少',  { top: -100, left: -100 })
 
 	const group = new fabric.Group([
 		new fabric.Rect({ width: 100, height: 100, fill: '#6B8FF4' }),
@@ -32,5 +28,5 @@
 	canvas.add(group)
 ```
 </div>
-<TrimGroup />
+<TrimText />
 </div>
