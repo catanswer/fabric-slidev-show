@@ -587,6 +587,11 @@ hide: false
 src: ./pages/trim/text.md
 hide: false
 ---
+<!-- 裁剪画布 -->
+---
+src: ./pages/trim/canvas.md
+hide: false
+---
 
 ---
 
